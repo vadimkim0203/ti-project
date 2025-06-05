@@ -33,7 +33,7 @@ const NavbarComponent: FC<NavbarProps> = ({className}) => {
           </Link>
         </NavbarBrand>
 
-        {/* buttons */}
+        {/* menu buttons */}
         <NavbarContent className="hidden sm:flex gap-8 z-10">
           <NavigationMenu
             className="hidden md:flex items-center justify-between gap-8 h-full max-w-none"
